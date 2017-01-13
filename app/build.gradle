@@ -9,8 +9,9 @@ android {
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "Alpha"
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -24,4 +25,11 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
+
+    //retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.google.code.gson:gson:2.6.1'
+    compile 'io.reactivex:rxjava:1.1.6'
+    compile 'io.reactivex:rxandroid:1.2.1'
 }
